@@ -1,0 +1,29 @@
+{
+  "name": "title-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@andylitahh/npm_title-component"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "AL",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "sass": "^1.35.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
