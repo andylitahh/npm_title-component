@@ -35,7 +35,7 @@ jobs:
       - name: Build the package
         run: npm run build
         env:
-          NODE_AUTH_TOKEN: ${{NPMPACKAGESBUILDACTIONS}}
+          NODE_AUTH_TOKEN: ${{SECRETS.NPMPACKAGESBUILDACTIONS}}
         
 
 
