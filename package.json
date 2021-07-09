@@ -4,7 +4,7 @@
   "description": "",
   "main": "./build/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@andylitahh/npm_title-component"
+    "registry": "https://npm.pkg.github.com/npm_title-component"
   },
   "scripts": {
     "build": "webpack"
